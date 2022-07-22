@@ -11,27 +11,27 @@ header {
     
 }
 
-header .container {
+.container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 35px 15px;
 }
 
-header .logo {
+.logo {
   font-size: 50px;
   border: 2px solid;
   border-radius: 20px;
-  padding: 15px;
+  padding: 20px;
 }
-
-header nav a {
+nav a {
   color: rgb(17, 2, 2);
   padding: 20px;
   font-size: 20px;
 }
 
-header nav a:hover {
+nav a:hover {
   color: rgba(64, 89, 233, 0.575);
 }
 
